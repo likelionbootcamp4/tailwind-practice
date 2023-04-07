@@ -1,10 +1,10 @@
 export default function Project() {
-    return (
-      <div>
-        {/* Container */}
-        <div  className="px-4 py-16 sm:px-6">
-          {/* Project Container */}
-          <div className="lg:grid grid-cols-2">
+  return (
+    <div>
+      {/* Container */}
+      <div className="max-w-screen-xl mx-auto px-4 py-16 sm:px-6">
+        {/* Project Container */}
+        <div className="lg:grid grid-cols-2">
           <div className="h-64 sm:h-80 lg:h-screen py-16">
             <img
               alt="House"
@@ -29,8 +29,7 @@ export default function Project() {
             </button>
           </div>
         </div>
-        </div>
       </div>
-    );
-  }
-  
+    </div>
+  );
+}

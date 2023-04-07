@@ -1,11 +1,12 @@
+import Container from "../Container";
+
 export default function Specialities() {
   return (
-    <div>
+    <div className="bg-gray-900">
       {/* Container */}
-      <div>
+      <Container>
         {/* Specialities Container */}
-        <div className="px-4 py-8 sm:px-6 sm:py-12 lg:py-16 lg:px-8 bg-gray-900 text-white">
-
+        <div className="px-4 py-8 sm:px-6 sm:py-12 lg:py-16 lg:px-8  text-white">
           {/* HEADING */}
           <div className="">
             <h2 className="text-3xl font-bold sm:text-4xl ">
@@ -215,7 +216,7 @@ export default function Specialities() {
             </div>
           </div>
         </div>
-      </div>
+      </Container>
     </div>
   );
 }
