@@ -13,7 +13,7 @@ export default function About() {
               atque tenetur quis eius quos ea neque sunt, accusantium soluta minus
               veniam tempora deserunt? Molestiae eius quidem quam repellat.
             </p>
-            <a href="#" className="mt-8 inline-block rounded bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400">
+            <a href="#" className="mt-4 inline-block rounded bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400">
               Get Started Today
             </a>
           </div>
